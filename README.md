@@ -14,3 +14,13 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
 
 ## Test Results
 ![](https://github.com/Sierkinhane/AtrousPose/blob/master/images/demo2.png)
+
+## Evaluation
+
+## Training
+   * download mpii dataset
+      * [MPII](http://human-pose.mpi-inf.mpg.de/)
+   * download mask for mpii
+      * [MASK]()
+   * train
+      * run > train.py
