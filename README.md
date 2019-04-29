@@ -32,8 +32,8 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
       * run > train.py
 
 ### This repository was based on:
-   * ![ZheCao](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
-   * ![Tensorboy](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation)
-   * ![last-one](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation/tree/master/training)
-   * ![michalfaber](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation)
-   * ![fregu856](https://github.com/fregu856/deeplabv3)
+   * [ZheCao](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
+   * [Tensorboy](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation)
+   * [last-one](https://github.com/last-one/Pytorch_Realtime_Multi-Person_Pose_Estimation/tree/master/training)
+   * [michalfaber](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation)
+   * [fregu856](https://github.com/fregu856/deeplabv3)
