@@ -30,7 +30,8 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
       * [JSON](http://posefs1.perception.cs.cmu.edu/Users/ZheCao/MPI.json)
    * train
       * run > train.py
-
+### Loss curve
+![](https://github.com/Sierkinhane/AtrousPose/blob/master/loss_log/loss.jpg)
 ### This repository was based on:
    * [ZheCao](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
    * [Tensorboy](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation)
