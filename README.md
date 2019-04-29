@@ -17,6 +17,9 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
 
 ## Evaluation
 
+## Demo
+   * run > demo.py results will be store in /images
+   
 ## Training
    * download mpii dataset
       * [MPII](http://human-pose.mpi-inf.mpg.de/)
