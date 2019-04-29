@@ -7,10 +7,10 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
 ![](https://github.com/Sierkinhane/AtrousPose/blob/master/images/spatialpyramid.png)
 
 ## Properties of atrouspose network
-| Arch               |Input Size|Output Size| FLOPS |Num.param.|  FPS  |
-|--------------------|----------|-----------|-------|----------|-------|
-| AtrousPose-512     |  384×384 |   48×48   |  50G  |    26M   |   42  |
-| AtrousPose-128     |  384×384 |   48×48   |  20G  |    13M   |   67  |
+| Arch               |Input Size|Output Size| FLOPS |Num.param.|  FPS(C++)  |
+|--------------------|----------|-----------|-------|----------|------------|
+| AtrousPose-512     |  384×384 |   48×48   |  50G  |    26M   |     42     |
+| AtrousPose-128     |  384×384 |   48×48   |  20G  |    13M   |     67     |
 
 ## Test Results
 ![](https://github.com/Sierkinhane/AtrousPose/blob/master/images/demo2.png)
@@ -18,7 +18,8 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
 ## Evaluation
 
 ## Demo
-   * run > demo.py results will be store in /images
+   * (Python demo)run > demo.py results will be store in /images
+   * (C++ version) 
    
 ## Training
    * download mpii dataset
