@@ -3,6 +3,6 @@ code for paper：real time multi-person pose estimation based on atrous convolut
 
 ## Network Structures
 ![](https://github.com/Sierkinhane/AtrousPose/blob/master/images/basicNet2.png)
-
+![](https://github.com/Sierkinhane/AtrousPose/blob/master/images/spatialpyramid.png)
 ## Test Results
 ![](https://github.com/Sierkinhane/AtrousPose/blob/master/images/demo2.png)
