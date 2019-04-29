@@ -24,6 +24,8 @@ codes for paper：real time multi-person pose estimation based on atrous convolu
    * download mpii dataset
       * [MPII](http://human-pose.mpi-inf.mpg.de/)
    * download mask for mpii
-      * [MASK]()
+      * [MASK](http://posefs1.perception.cs.cmu.edu/Users/ZheCao/masks_for_mpii_pose.tgz)
+   * download json for mpii
+      * [JSON](http://posefs1.perception.cs.cmu.edu/Users/ZheCao/MPI.json)
    * train
       * run > train.py
