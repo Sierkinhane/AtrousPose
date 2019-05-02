@@ -365,7 +365,7 @@ if __name__ == '__main__':
     output = "./images/result.jpg"
     weight_name = './legacy/dilated_pose_done.pth'
     # load model
-    model = construct_model()
+    model = construct_model(weight_name)
     tic = time.time()
     print('start processing...')
 
