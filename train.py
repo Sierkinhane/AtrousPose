@@ -180,7 +180,7 @@ def val(model, val_loader, criterion):
             step += 1
             if step % DISPLAY == 0:
                 if step % 10 == 0:
-                    with open('./log_loss/dilated_pose_val_loss.txt', 'a') as file:
+                    with open('./loss_log/dilated_pose_val_loss.txt', 'a') as file:
                         file.write("%.7f" % (losses_list[0].avg) + ' ' + "%.7f" % (losses_list[1].avg) + '\n')
                 print('val Iteration: {0}\t'
                       'Time {batch_time.sum:.3f}s / {1}iters, ({batch_time.avg:.3f})\t'
@@ -251,7 +251,7 @@ def train(model, optimizer, train_loader, criterion, multiple):
 
         if step % DISPLAY == 0:
             if step % 1000 == 0:
-                with open('./log_loss/dilated_pose_train_loss.txt', 'a') as file:
+                with open('./loss_log/dilated_pose_train_loss.txt', 'a') as file:
                     file.write("%.7f" % (losses_list[0].avg) + ' ' + "%.7f" % (losses_list[1].avg) + '\n')
             print('Train Iteration: {0}\t'
                   'Time {batch_time.sum:.3f}s / {1}iters, ({batch_time.avg:.3f})\t'
